@@ -20,29 +20,29 @@ void draw(){
   //filter(DILATE);
 }
 ```
-THRESHOLD  
-Converts the image to black and white pixels depending on if they are above or below the threshold defined by the level parameter. The parameter must be between 0.0 (black) and 1.0 (white). If no level is specified, 0.5 is used.  
+*THRESHOLD  
+Converts the image to black and white pixels depending on if they are above or below the threshold defined by the level parameter. The parameter must be between 0.0 (black) and 1.0 (white). If no level is specified, 0.5 is used. 
   
-GRAY  
+*GRAY  
 Converts any colors in the image to grayscale equivalents. No parameter is used.  
   
-OPAQUE  
+*OPAQUE  
 Sets the alpha channel to entirely opaque. No parameter is used.  
   
-INVERT  
+*INVERT  
 Sets each pixel to its inverse value. No parameter is used.  
   
-POSTERIZE  
+*POSTERIZE  
 Limits each channel of the image to the number of colors specified as the parameter. The parameter can be set to values between 2 and 255, but results are most noticeable in the lower ranges.  
   
-BLUR  
+*BLUR  
 Executes a Gaussian blur with the level parameter specifying the extent of the blurring. If no parameter is used, the blur is equivalent to Gaussian blur of radius 1. Larger values increase the blur.  
   
-ERODE  
-Reduces the light areas. No parameter is used.  
+*ERODE  
+Reduces the light areas. No parameter is used. 
   
-DILATE  
-Increases the light areas. No parameter is used.
+*DILATE  
+Increases the light areas. No parameter is used.*
 
 ```
 PImage cat;
